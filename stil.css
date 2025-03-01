@@ -57,6 +57,10 @@ body {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards;
     z-index: 1;
+    position: absolute; /* Pozicioniraj absolutno */
+    bottom: 0;  /* Na dnu stranice */
+    left: 50%;  /* Poravnaj na sredinu */
+    transform: translateX(-50%); /* Poravnaj centar slike */
 }
 
 /* Animacija za donji-dio sliku */
