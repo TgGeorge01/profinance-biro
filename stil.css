@@ -18,10 +18,9 @@ body {
     transform: scale(1.2);  /* Početno stanje (uvećano) */
     opacity: 0;
     animation: bg-appear 2s ease-out forwards;
-
 }
 
-/* Animacija za efekat postepenog prikazivanja */
+/* Animacija za efekat postepenog prikazivanja pozadine */
 @keyframes bg-appear {
     0% {
         transform: scale(1.2);
@@ -31,11 +30,12 @@ body {
         transform: scale(1);
         opacity: 1;
     }
+}
 
 /* Logo fade-in efekat */
 .logo {
     opacity: 0; /* Početno nevidljiv */
-    animation: logo-fade 3s ease-out backwards;
+    animation: logo-fade 3s ease-out forwards 2s; /* Sa odlaganjem 2 sekunde */
 }
 
 @keyframes logo-fade {
@@ -46,4 +46,4 @@ body {
         opacity: 1;
     }
 }
-}
+
