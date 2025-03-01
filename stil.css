@@ -18,6 +18,7 @@ body {
     transform: scale(1.2);  /* Početno stanje (uvećano) */
     opacity: 0;
     animation: bg-appear 2s ease-out forwards;
+    filter: blur(10px); /* Blur efekat */
 }
 
 /* Animacija za efekat postepenog prikazivanja */
