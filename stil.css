@@ -56,7 +56,11 @@ body {
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards; /* Fade-in animacija */
-    z-index: 1;
+    position: absolute;  /* Osigurava da slika bude apsolutno pozicionirana */
+    bottom: 0;  /* Pozicija donjeg dela */
+    left: 50%;  /* Horizontalno centrirano */
+    transform: translateX(-50%);  /* Centriranje slike */
+    z-index: 1;  /* Pomeranje slike ispred pozadine */
 }
 
 /* Animacija za donji-dio sliku */
