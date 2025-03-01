@@ -35,7 +35,7 @@ body {
 /* Logo fade-in efekat */
 .logo {
     opacity: 0; /* Početno nevidljiv */
-    animation: logo-fade 3s ease-out forwards;
+    animation: logo-fade 3s ease-out backwards;
 }
 
 @keyframes logo-fade {
