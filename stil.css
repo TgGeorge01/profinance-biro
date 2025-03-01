@@ -18,6 +18,7 @@ body {
     transform: scale(1.2);  /* Početno stanje (uvećano) */
     opacity: 0;
     animation: bg-appear 2s ease-out forwards;
+    z-index: 0; 
 }
 
 /* Animacija za efekat postepenog prikazivanja pozadine */
