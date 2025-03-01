@@ -18,7 +18,7 @@ body {
     transform: scale(1.2);  /* Početno stanje (uvećano) */
     opacity: 0;
     animation: bg-appear 2s ease-out forwards;
-    z-index: 0; 
+    z-index: 0;
 }
 
 /* Animacija za efekat postepenog prikazivanja pozadine */
@@ -47,17 +47,20 @@ body {
         opacity: 1;
     }
 }
-/* donji-dio fade-in efekat */
+
+/* Donji-dio fade-in efekat */
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
-    animation: logo-fade 3s ease-out forwards 0s; /* Sa odlaganjem 0 sekundi */
-    z-index: 1;    
+    animation: donji-dio-fade 3s ease-out forwards 0s; /* Sa odlaganjem 0 sekundi */
+    z-index: 1;
 }
 
-@keyframes donji-dio {
+/* Nova animacija za donji-dio */
+@keyframes donji-dio-fade {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
+}
