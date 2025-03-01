@@ -31,4 +31,24 @@ body {
         transform: scale(1);
         opacity: 1;
     }
+
+/* Logo fade-in efekat */
+.logo {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 300px; 
+    opacity: 0; 
+    animation: logo-fade 3s ease-out forwards 2s; /* Počinje nakon 2 sekunde */
+}
+
+@keyframes logo-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 }
