@@ -50,6 +50,7 @@ body {
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
     animation: logo-fade 3s ease-out forwards 0s; /* Sa odlaganjem 0 sekundi */
+    z-index: 1;    
 }
 
 @keyframes donji-dio {
