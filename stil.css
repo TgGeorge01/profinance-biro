@@ -29,7 +29,7 @@ body {
     background-image: url("pozadinska_slika.jpg");
     background-size: cover;
     background-position: center;
-    filter: blur(10px); /* Blur samo na slici */
+    filter: blur(50px); /* Blur samo na slici */
     z-index: -1; /* Stavlja sliku iza sadržaja */
 }
     
