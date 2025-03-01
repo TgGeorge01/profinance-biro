@@ -56,10 +56,10 @@ body {
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards; /* Fade-in animacija */
-    position: absolute;  /* Osigurava da slika bude apsolutno pozicionirana */
-    bottom: 0;  /* Pozicija donjeg dela */
-    left: 50%;  /* Horizontalno centrirano */
-    transform: translateX(-50%);  /* Centriranje slike */
+    position: absolute; /* Apsolutno pozicioniranje, ali slika će biti tačno onakva kakva je */
+    bottom: 0; /* Ostavite sliku na dnu ekrana */
+    left: 0;   /* Pozicionirajte je sa leve strane ekrana */
+    width: 100%; /* Širina slike da bude 100% širine ekrana (ako je potrebno) */
     z-index: 1;  /* Pomeranje slike ispred pozadine */
 }
 
