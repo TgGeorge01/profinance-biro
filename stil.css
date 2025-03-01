@@ -57,8 +57,7 @@ body {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards;
     position: absolute;
-    bottom: 20px;  /* Na dnu ekrana (ili prilagoditi po potrebi) */
-    left: 50%;
+
     transform: translateX(-50%);
     z-index: 1;
 }
