@@ -5,7 +5,7 @@ body {
     background: black;
 }
 
-/* Stilizujem pozadine */
+/* Stilizujem pozadinsku sliku */
 .background {
     position: fixed;
     top: 0;
@@ -21,7 +21,7 @@ body {
     z-index: 0;
 }
 
-/* Animacija za efekat postepenog prikazivanja pozadine */
+/* Animacija za pozadinsku sliku */
 @keyframes bg-appear {
     0% {
         transform: scale(1.2);
@@ -36,7 +36,11 @@ body {
 /* Logo fade-in efekat */
 .logo {
     opacity: 0; /* Početno nevidljiv */
-    animation: logo-fade 3s ease-out forwards 0s; /* Sa odlaganjem 0 sekundi */
+    animation: logo-fade 3s ease-out forwards; /* Sa odlaganjem 0 sekundi */
+    position: absolute;
+    top: 20%; /* Pozicioniraj logo */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @keyframes logo-fade {
@@ -51,7 +55,14 @@ body {
 /* Donji-dio fade-in efekat */
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
-    animation: donji-dio-fade 3s ease-out forwards 0s; /* Sa odlaganjem 0 sekundi */
+    animation: donji-dio-fade 3s ease-out forwards;
+    position: absolute;
+    bottom: 20px;  /* Na dnu ekrana (ili prilagoditi po potrebi) */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;  /* Tekst boje */
+    font-size: 2rem;
+    text-align: center;
     z-index: 1;
 }
 
