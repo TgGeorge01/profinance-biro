@@ -56,9 +56,6 @@ body {
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards;
-    position: absolute;
-
-    transform: translateX(-50%);
     z-index: 1;
 }
 
