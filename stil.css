@@ -60,9 +60,6 @@ body {
     bottom: 20px;  /* Na dnu ekrana (ili prilagoditi po potrebi) */
     left: 50%;
     transform: translateX(-50%);
-    color: white;  /* Tekst boje */
-    font-size: 2rem;
-    text-align: center;
     z-index: 1;
 }
 
