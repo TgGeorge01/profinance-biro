@@ -46,4 +46,16 @@ body {
         opacity: 1;
     }
 }
+/* donji-dio fade-in efekat */
+.donji-dio {
+    opacity: 0; /* Početno nevidljiv */
+    animation: logo-fade 3s ease-out forwards 0s; /* Sa odlaganjem 0 sekundi */
+}
 
+@keyframes donji-dio {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
