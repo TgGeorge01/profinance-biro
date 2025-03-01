@@ -19,20 +19,6 @@ body {
     opacity: 0;
     animation: bg-appear 2s ease-out forwards;
 
-.background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("pozadinska_slika.jpg");
-    background-size: cover;
-    background-position: center;
-    filter: blur(50px); /* Blur samo na slici */
-    z-index: -1; /* Stavlja sliku iza sadržaja */
-}
-    
 }
 
 /* Animacija za efekat postepenog prikazivanja */
