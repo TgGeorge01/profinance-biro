@@ -38,9 +38,6 @@ body {
     opacity: 0; /* Početno nevidljiv */
     animation: logo-fade 3s ease-out forwards; /* Sa odlaganjem 0 sekundi */
     position: absolute;
-    top: 20%; /* Pozicioniraj logo */
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 @keyframes logo-fade {
@@ -57,8 +54,6 @@ body {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards;
     position: absolute;
-    bottom: 20px;  /* Na dnu ekrana (ili prilagoditi po potrebi) */
-    left: 50%;
     transform: translateX(-50%);
     z-index: 1;
 }
