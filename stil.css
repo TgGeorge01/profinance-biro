@@ -36,6 +36,10 @@ body {
 .logo {
     opacity: 0; /* Početno nevidljiv */
     animation: logo-fade 3s ease-out forwards;
+    max-width: 100%; /* Sprečava da bude veći od ekrana */
+    max-height: 100vh; 
+    width: auto; /* Održava proporcije */
+    height: auto; 
 }
 
 @keyframes logo-fade {
