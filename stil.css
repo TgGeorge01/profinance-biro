@@ -37,21 +37,16 @@ body {
 .logo {
     opacity: 0; /* Početno nevidljiv */
     animation: logo-fade 3s ease-out forwards; /* Sa odlaganjem 0 sekundi */
+    position: absolute;
 }
 
 @keyframes logo-fade {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-/* Donji-dio fade-in efekat */
+@@ -53,17 +52,15 @@
 .donji-dio {
     opacity: 0; /* Početno nevidljiv */
     animation: donji-dio-fade 3s ease-out forwards;
+    position: absolute;
+    transform: translateX(-50%);
     z-index: 1;
 }
 
@@ -63,4 +58,5 @@ body {
     100% {
         opacity: 1;
     }
+}
 }
