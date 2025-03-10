@@ -5,14 +5,14 @@ body {
     background: black;
 }
 
-/* Stilizujem pozadinsku sliku */
+/* Styling background image */
 .background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("pozadinska_slika.jpg"); /* slika */
+    background-image: url("background_img.jpg"); /* image */
     background-size: cover;
     background-position: center;
     transform: scale(1.2);  /* Početno stanje (uvećano) */
@@ -21,7 +21,7 @@ body {
     z-index: 0;
 }
 
-/* Animacija za pozadinsku sliku */
+/* Background image animation */
 @keyframes bg-appear {
     0% {
         transform: scale(1.2);
@@ -33,7 +33,7 @@ body {
     }
 }
 
-/* Logo fade-in efekat */
+/* Logo fade-in efect */
 .logo {
     opacity: 0; /* Početno nevidljiv */
     animation: logo-fade 3s ease-out forwards;
