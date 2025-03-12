@@ -3,6 +3,7 @@ body {
     margin: 0;
     overflow: hidden;
     background: black;
+   
 }
 
 /* Styling background image */
@@ -38,7 +39,7 @@ body {
     opacity: 0; /* Invisible in the start */
     animation: Logo-fade 3s ease-out forwards;
     position: absolute; /* Positioning */
-    top: 10%; 
+    top: 20px; 
     left: 50%;
     transform: translateX(-50%);
     width: 80%; /* Adjusted for mobile */
@@ -54,7 +55,7 @@ body {
 @media (min-width: 1024px) {
     .Logo {
         width: 30%; /* Adjusted for desktops */
-        bottom: 20px; /* Adjusted for desktops */
+        top: 20px; /* Adjusted for desktops */
     }
 }
 
