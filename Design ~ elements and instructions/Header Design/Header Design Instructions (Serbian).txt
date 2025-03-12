@@ -16,4 +16,4 @@ Funkcija dugmeta:  *[Početna] - prebacuje na home page
                            aspect ratio: 4:1, 
                            drop shadow: X: 0; Y: 0; blur: 6.9; spread: 2, hex code: 000000; opacity: 25%  
 
--napomena: sve je center aligned
+-napomena: sve je center aligned i header je fixed (ostaje gore cak i kad user skrolla)
