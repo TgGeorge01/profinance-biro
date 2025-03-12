@@ -39,6 +39,7 @@ body {
     animation: Logo-fade 3s ease-out forwards;
     position: absolute; /* Positioning */
     top: 33%; 
+    bottom: 60%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%; /* Adjusted for mobile */
