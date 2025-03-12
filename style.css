@@ -41,6 +41,21 @@ body {
     bottom: 0; 
     left: 50%;
     transform: translateX(-50%);
+    width: 80%; /* Adjusted for mobile */
+}
+
+/* Media query for tablets and larger screens */
+@media (min-width: 768px) {
+    .Logo {
+        width: 50%; /* Adjusted for tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .Logo {
+        width: 30%; /* Adjusted for desktops */
+        bottom: 20px; /* Adjusted for desktops */
+    }
 }
 
 @keyframes Logo-fade {
