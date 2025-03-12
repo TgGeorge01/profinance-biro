@@ -34,16 +34,16 @@ body {
 }
 
 /* Logo fade-in effect */
-.logo {
+.Logo {
     opacity: 0; /* Invisible in the start */
-    animation: logo-fade 3s ease-out forwards;
+    animation: Logo-fade 3s ease-out forwards;
     position: absolute; /* Positioning */
     bottom: 0; 
     left: 50%;
     transform: translateX(-50%);
 }
 
-@keyframes logo-fade {
+@keyframes Logo-fade {
     0% {
         opacity: 0;
     }
