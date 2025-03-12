@@ -1,5 +1,7 @@
 Header hex code: 000000, opacity: 8%
 
+Header aspect ratio: 17.62:1 (nije fiksno, možeš modifikovat)
+
 Font:  *[Početna, O nama] -Roboto (Regular), velicina 20
        *[Kontaktirajte nas] -Roboto (Regular), velicina 13
 
