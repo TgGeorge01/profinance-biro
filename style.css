@@ -1,4 +1,4 @@
-/* Resetujem osnovne margine */
+/* Reseting main margins */
 body {
     margin: 0;
     overflow: hidden;
@@ -15,7 +15,7 @@ body {
     background-image: url("background_img.jpg"); /* image */
     background-size: cover;
     background-position: center;
-    transform: scale(1.2);  /* Početno stanje (uvećano) */
+    transform: scale(1.2);  /*  zoomed in */
     opacity: 0;
     animation: bg-appear 2s ease-out forwards;
     z-index: 0;
@@ -33,12 +33,12 @@ body {
     }
 }
 
-/* Logo fade-in efect */
+/* Logo fade-in effect */
 .logo {
-    opacity: 0; /* Početno nevidljiv */
+    opacity: 0; /* Invisible in the start */
     animation: logo-fade 3s ease-out forwards;
-    position: absolute; /* Pozicioniran u odnosu na ekran */
-    bottom: 0; /* Logo treba da bude na dnu ekrana */
+    position: absolute; /* Positioning */
+    bottom: 0; 
     left: 50%;
     transform: translateX(-50%);
 }
@@ -50,6 +50,4 @@ body {
     100% {
         opacity: 1;
     }
-}
-
 }
