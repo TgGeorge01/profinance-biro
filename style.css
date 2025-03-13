@@ -6,6 +6,13 @@ body {
    
 }
 
+.Logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70%; /* Adjusted for mobile */
+}
+
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
     .Logo {
