@@ -26,10 +26,10 @@ body {
 /* Logo */
 .Logo {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 10px;
-    height: 50px;
-    width: 50px; /* Adjusted for mobile */
+    height: 40px;
+    width: 40px; /* Adjusted for mobile */
     
 }
 
@@ -43,8 +43,8 @@ body {
 
 @media (min-width: 1024px) {
     .Logo {
-        height: 30px; /* Adjusted for desktops */
-        width: 30px;
+        height: 20px; /* Adjusted for desktops */
+        width: 20px;
         top: 20px; /* Adjusted for desktops */
     }
 }
