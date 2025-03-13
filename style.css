@@ -10,14 +10,14 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 70%; /* Adjusted for mobile */
-    size-adjust: 25%;
+    width: 25%; /* Adjusted for mobile */
+    
 }
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
     .Logo {
-        width: 50%; /* Adjusted for tablets */
+        width: 10%; /* Adjusted for tablets */
     }
 }
 
