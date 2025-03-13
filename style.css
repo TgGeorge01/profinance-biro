@@ -6,24 +6,38 @@ body {
    
 }
 
+/*Header*/
+.Header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    aspect-ratio: 17.62/1;
+}
+
+/* Logo */
 .Logo {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 25%; /* Adjusted for mobile */
+    width: 50%; /* Adjusted for mobile */
     
 }
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
     .Logo {
-        width: 10%; /* Adjusted for tablets */
+        width: 40%; /* Adjusted for tablets */
     }
 }
 
 @media (min-width: 1024px) {
     .Logo {
-        width: 5%; /* Adjusted for desktops */
+        width: 30%; /* Adjusted for desktops */
         top: 20px; /* Adjusted for desktops */
     }
 }
