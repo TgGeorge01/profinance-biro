@@ -23,7 +23,7 @@ body {
 
 @media (min-width: 1024px) {
     .Logo {
-        width: 30%; /* Adjusted for desktops */
+        width: 5%; /* Adjusted for desktops */
         top: 20px; /* Adjusted for desktops */
     }
 }
