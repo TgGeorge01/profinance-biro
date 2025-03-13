@@ -16,16 +16,15 @@ body {
     text-align: center;
     font-size: 20px;
     line-height: 60px;
-    aspect-ratio: 17.62/1;
     opacity: 8%;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: left;
+    padding-left: 10px;
 }
 
 /* Logo */
 .Logo {
-    position: absolute;
     top: 5px;
     left: 10px;
     height: 40px;
