@@ -22,15 +22,10 @@ body {
     padding-left: 10px;
 }
 
-.logotext {
-    top: 5px;
-    left: 10px;
-    height: 40px;
-    width: 40px; /* Adjusted for mobile */
-}
+
 
 /* Logo */
-.Logo {
+.Logo, .logotext {
     top: 5px;
     left: 10px;
     height: 40px;
@@ -40,25 +35,16 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo {
+    .Logo, .logotext {
         height: 25px; /* Adjusted for tablets */
         width: 25px;
-    }
-    .logotext {
-        height: 25px;
-        width: 25px; /* Adjusted for tablets */
     }
 }
 
 @media (min-width: 1024px) {
-    .Logo {
+    .Logo, .logotext {
         height: 30px; /* Adjusted for desktops */
         width: 30px;
         top: 20px; /* Adjusted for desktops */
-    }
-    .logotext {
-        top: 20px;
-        height: 30px;
-        width: 30px; /* Adjusted for desktops */
     }
 }
