@@ -11,6 +11,7 @@ body {
     top: 10px;
     left: 10px;
     width: 70%; /* Adjusted for mobile */
+    size-adjust: 25%;
 }
 
 /* Media query for tablets and larger screens */
