@@ -29,7 +29,7 @@ body {
     top: 5px;
     left: 10px;
     height: 40px;
-    width: 40px; /* Adjusted for mobile */
+    width: auto; /* Adjusted for mobile */
     
 }
 
@@ -37,14 +37,14 @@ body {
 @media (min-width: 768px) {
     .Logo, .LogoText {
         height: 25px; /* Adjusted for tablets */
-        width: 25px;
+        width: auto;
     }
 }
 
 @media (min-width: 1024px) {
     .Logo, .LogoText {
         height: 30px; /* Adjusted for desktops */
-        width: 30px;
+        width: auto;
         top: 20px; /* Adjusted for desktops */
     }
 }
