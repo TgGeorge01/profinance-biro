@@ -18,6 +18,9 @@ body {
     line-height: 60px;
     aspect-ratio: 17.62/1;
     opacity: 8%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
 }
 
 /* Logo */
@@ -25,20 +28,21 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 30px; /* Adjusted for mobile */
+    height: 50px;
+    width: 30%; /* Adjusted for mobile */
     
 }
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
     .Logo {
-        width: 40%; /* Adjusted for tablets */
+        height: 30px; /* Adjusted for tablets */
     }
 }
 
 @media (min-width: 1024px) {
     .Logo {
-        width: 100px; /* Adjusted for desktops */
+        height: 30px; /* Adjusted for desktops */
         top: 20px; /* Adjusted for desktops */
     }
 }
