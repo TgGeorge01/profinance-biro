@@ -2,47 +2,8 @@
 body {
     margin: 0;
     overflow: hidden;
-    background: black;
+    background: rgb(255, 255, 255);
    
-}
-
-/* Styling background image */
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("background_img.jpg"); /* image */
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);  /*  zoomed in */
-    opacity: 0;
-    animation: bg-appear 2s ease-out forwards;
-    z-index: 0;
-}
-
-/* Background image animation */
-@keyframes bg-appear {
-    0% {
-        transform: scale(1.2);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Logo fade-in effect */
-.Logo {
-    opacity: 0; /* Invisible in the start */
-    animation: Logo-fade 3s ease-out forwards;
-    position: absolute; /* Positioning */
-    top: 20px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%; /* Adjusted for mobile */
 }
 
 /* Media query for tablets and larger screens */
@@ -56,14 +17,5 @@ body {
     .Logo {
         width: 30%; /* Adjusted for desktops */
         top: 20px; /* Adjusted for desktops */
-    }
-}
-
-@keyframes Logo-fade {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
     }
 }
