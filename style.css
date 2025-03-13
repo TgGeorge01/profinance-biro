@@ -34,15 +34,15 @@ body {
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
     .Logo {
-        height: 30px; /* Adjusted for tablets */
-        width: 30px;
+        height: 25px; /* Adjusted for tablets */
+        width: 25px;
     }
 }
 
 @media (min-width: 1024px) {
     .Logo {
-        height: 20px; /* Adjusted for desktops */
-        width: 20px;
+        height: 30px; /* Adjusted for desktops */
+        width: 30px;
         top: 20px; /* Adjusted for desktops */
     }
 }
