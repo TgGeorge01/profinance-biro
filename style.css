@@ -25,7 +25,7 @@ body {
 
 
 /* Logo */
-.Logo, .logotext {
+.Logo, .LogoText {
     top: 5px;
     left: 10px;
     height: 40px;
@@ -35,14 +35,14 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo, .logotext {
+    .Logo, .LogoText {
         height: 25px; /* Adjusted for tablets */
         width: 25px;
     }
 }
 
 @media (min-width: 1024px) {
-    .Logo, .logotext {
+    .Logo, .LogoText {
         height: 30px; /* Adjusted for desktops */
         width: 30px;
         top: 20px; /* Adjusted for desktops */
