@@ -142,7 +142,6 @@ h1 {
     height: auto;
     z-index: -1;
     opacity: 0.6;
-    align-self: right;
  }
 
  .TextImageContainer h1{
@@ -159,8 +158,8 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: left;
-        flex-direction: row-reverse;
+        text-align: center;
+ 
     }
     .CalculatorImage {
         position: static;
@@ -184,6 +183,7 @@ h1 {
     }
     .CalculatorImage {
         width: 30%;
+        padding: 35px;
     }
 
 
