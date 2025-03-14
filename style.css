@@ -23,7 +23,16 @@ body {
 
 }
 
-.pocetna_text {
+.pocetna_text{
+    font-size: 50px;
+    font-family: Roboto;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.about_text {
     font-size: 50px;
     font-family: Roboto;
     color: #000000;
