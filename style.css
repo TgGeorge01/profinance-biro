@@ -78,14 +78,14 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo, .LogoText, .Pocetna {
+    .Logo, .LogoText, .Pocetna, .O_nama {
         height: 25px; /* Adjusted for tablets */
         width: auto;
     }
 }
 
 @media (min-width: 1024px) {
-    .Logo, .LogoText, .Pocetna {
+    .Logo, .LogoText, .Pocetna, .O_nama {
         height: 30px; /* Adjusted for desktops */
         width: auto;
         top: 20px; /* Adjusted for desktops */
@@ -94,12 +94,19 @@ body {
 
 /* Styling for the main heading */
 h1 {
-    font-size: 40px; /* Increase the font size */
-    font: Sintony; /* Ensure consistent font */
+    font-size: 70px; /* Increase the font size */
+    font-family: 'Times New Roman'; /* Ensure consistent font */
     color: #000000; /* Text color */
     text-align: left; /* Move the text to the left */
     line-height: 1.2; /* Adjust line spacing */
     margin: 0; /* Remove default margins */
     padding: 17px 0; /* Add padding for spacing */
     padding-left: 35px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 100px; /* Increase the font size */
+        padding-left: 50px;
+    }
 }
