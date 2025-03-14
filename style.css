@@ -94,26 +94,26 @@ body {
 
 /* Styling for the main heading */
 h1 {
-    font-size: 70px; /* Increase the font size */
+    font-size: 30px; /* Increase the font size */
     font-family: 'Times New Roman'; /* Ensure consistent font */
     color: #000000; /* Text color */
     text-align: left; /* Move the text to the left */
     line-height: 1.2; /* Adjust line spacing */
     margin: 0; /* Remove default margins */
     padding: 17px 0; /* Add padding for spacing */
-    padding-left: 35px;
+    padding-left: 15px;
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 100px; /* Increase the font size */
+        font-size: 50px; /* Increase the font size */
         padding-left: 50px;
     }
 }
 @media (min-width: 1024px) {
     h1 {
-        font-size: 120px; /* Increase the font size */
-        padding-left: 70px;
+        font-size: 70px; /* Increase the font size */
+        padding-left: 35px;
     }
 }
 @media (min-width: 1024px) {
