@@ -219,8 +219,8 @@ h1 {
     font: Roboto;
     font-size: 20px;
     color: #000000;
-    background: #adadad00;
-    border: none;
+    background: #adadadd0;
+    border: #000000;
     border-radius: 6%;
     padding: 10px;
    }
