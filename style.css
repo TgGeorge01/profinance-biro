@@ -25,10 +25,14 @@ body {
 
 /* Navigation */
 .Pocetna {
-    top: 10px;
-    left: 10px;
-    height: 40px;
-    width: auto; /* Adjusted for mobile */
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 20;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 50;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 
 }
 
