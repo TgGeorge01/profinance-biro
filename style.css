@@ -10,7 +10,7 @@ body {
 .Header {
     position: fixed;
     width: 100%;
-    height: 25px;
+    height: 35px;
     background: #adadade0;
     color: #ffffff;
     text-align: center;
@@ -71,7 +71,7 @@ body {
 .Logo, .LogoText {
     top: 5px;
     left: 10px;
-    height: 15px;
+    height: 25px;
     width: auto; /* Adjusted for mobile */
     
 }
@@ -97,7 +97,7 @@ h1 {
     font-size: 15px; /* Increase the font size */
     font-family: 'Times New Roman'; /* Ensure consistent font */
     color: #000000; /* Text color */
-    text-align: left; /* Move the text to the left */
+    text-align: center; /* Move the text to the left */
     line-height: 1.2; /* Adjust line spacing */
     margin: 0; /* Remove default margins */
     padding: 17px 0; /* Add padding for spacing */
@@ -108,6 +108,7 @@ h1 {
     h1 {
         font-size: 50px; /* Increase the font size */
         padding-left: 17px;
+        text-align: left;
     }
 }
 @media (min-width: 1024px) {
