@@ -33,6 +33,10 @@ body {
     background-color: #ffffff;
     border-radius: 50;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    left: 10px;
+    top: 10px;
+    position: absolute;
 
 }
 
