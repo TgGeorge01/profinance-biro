@@ -17,3 +17,14 @@ Header hex code: 000000, opacity: 8%
                             drop shadow: X: 0; Y: 0; blur: 6.9; spread: 2, hex code: 000000; opacity: 25%  
  
  -napomena: sve je center aligned i header je fixed (ostaje gore cak i kad user skrolla)
+
+
+ "vas pouzdan parnter..." font je Sintony, regular size: 40
+
+"saznaj vise" font je roboto, regulral size: 16
+
+kutija za saznaj vise je aspect ratio 3.57:1, sa corner radius: 50
+
+slika je ratio 1.66:1
+
+pozadina je bjela i sam odluci kolko ima prostora iznad i ispod al nek je jednako
