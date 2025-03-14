@@ -10,7 +10,7 @@ body {
 .Header {
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 40px;
     background: #adadade0;
     color: #ffffff;
     text-align: center;
@@ -46,7 +46,7 @@ body {
 .Pocetna {
     top: 5px;
     left: 40px;
-    height: 40px;
+    height: 20px;
     width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
@@ -57,7 +57,7 @@ body {
 .O_nama {
     top: 5px;
     left: 40px;
-    height: 40px;
+    height: 20px;
     width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
@@ -71,7 +71,7 @@ body {
 .Logo, .LogoText {
     top: 5px;
     left: 10px;
-    height: 40px;
+    height: 20px;
     width: auto; /* Adjusted for mobile */
     
 }
@@ -108,5 +108,21 @@ h1 {
     h1 {
         font-size: 100px; /* Increase the font size */
         padding-left: 50px;
+    }
+}
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 120px; /* Increase the font size */
+        padding-left: 70px;
+    }
+}
+@media (min-width: 1024px) {
+   .Header, .Pocetna, .O_nama {
+         height: 60px;
+   }
+}
+@media (min-width: 768px) {
+    .Header, .Pocetna, .O_nama {
+        height: 50px;
     }
 }
