@@ -112,7 +112,7 @@ h1 {
     line-height: 1.2; /* Adjust line spacing */
     margin: 0; /* Remove default margins */
     padding: 17px 0; /* Add padding for spacing */
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 @media (min-width: 768px) {
