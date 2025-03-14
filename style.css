@@ -26,12 +26,23 @@ body {
 /* Navigation */
 .Pocetna {
     top: 5px;
-    left: 20px;
+    left: 40px;
     height: 40px;
     width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
     font-size: 20px;
+    background: #adadad00;
+}
+
+.O_nama {
+    top: 5px;
+    left: 40px;
+    height: 40px;
+    width: auto; /* Adjusted for mobile */
+    border: #ffffff;
+    font: Roboto;
+    font-size: 13px;
     background: #adadad00;
 }
 
