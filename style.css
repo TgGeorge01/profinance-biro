@@ -144,7 +144,22 @@ h1 {
     opacity: 0.2;
  }
 
+ .TextImageContainer h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    line-height: 1.2;
+    margin: 0;
+    padding: 20px ;
+ }
+ /* Media query for tablets and larger screens */
  @media (min-width: 768px) {
+    .TextImageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     .CalculatorImage {
         position: static;
         width: 40%;
@@ -154,5 +169,19 @@ h1 {
         z-index: 0;
         transform: none;
     }
-    
+    .TextImageContainer h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+ }
+/*Media query for desktops */
+@media (min-width: 1024px) {
+    .TextImageContainer h1 {
+        font-size: 70px;
+    }
+    .CalculatorImage {
+        width: 30%;
+    }
+
+
  }
