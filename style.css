@@ -127,3 +127,32 @@ h1 {
         height: 50px;
     }
 }
+ .TextImageContainer{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .CalculatorImage{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.2;
+ }
+
+ @media (min-width: 768px) {
+    .CalculatorImage {
+        position: static;
+        width: 40%;
+        height: auto;
+        margin-right: 20px;
+        opacity: 1;
+        z-index: 0;
+        transform: none;
+    }
+    
+ }
