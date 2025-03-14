@@ -95,11 +95,11 @@ body {
 /* Styling for the main heading */
 h1 {
     font-size: 70px; /* Increase the font size */
-    font-family: Roboto, sans-serif; /* Ensure consistent font */
+    font: Roboto; /* Ensure consistent font */
     color: #000000; /* Text color */
     text-align: left; /* Move the text to the left */
     line-height: 1.2; /* Adjust line spacing */
     margin: 0; /* Remove default margins */
     padding: 17px 0; /* Add padding for spacing */
-    padding-left: 30px;
+    padding-left: 35px;
 }
