@@ -81,6 +81,7 @@ body {
     .Logo, .LogoText, .Pocetna, .O_nama {
         height: 25px; /* Adjusted for tablets */
         width: auto;
+        padding-left: 5px;
     }
 }
 
@@ -89,6 +90,7 @@ body {
         height: 30px; /* Adjusted for desktops */
         width: auto;
         top: 20px; /* Adjusted for desktops */
+        padding-left: 5px;
     }
 }
 
