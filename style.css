@@ -215,16 +215,30 @@ h1 {
  }
 
 
-   .aboutbutton{
-    font: Roboto;
-    font-size: 20px;
-    color: #000000;
-    background: #adadadd0;
-    border: #000000 2px solid;
-    border-radius: 30%;
-    padding: 10px;
-    height: 30px;
-    width: auto;
+/* Saznaj više button */
+.SaznajViseButton {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-size: 18px; /* Adjust font size */
+    color: #ffffff; /* White text */
+    background: #adadade0; /* Blue background */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding for size */
+    margin: 20px; /* Add spacing around the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
 
+/* Hover effect for the button */
+.SaznajViseButton:hover {
+    background: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
 
-   }
+/* Focus effect for accessibility */
+.SaznajViseButton:focus {
+    outline: 2px solid #ffffff; /* White outline for focus */
+    outline-offset: 2px;
+}
