@@ -20,6 +20,16 @@ body {
     align-items: center;
     justify-content: left;
     padding-left: 10px;
+    fixed: top;
+}
+
+/* Navigation */
+.Pocetna {
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: auto; /* Adjusted for mobile */
+
 }
 
 
@@ -35,14 +45,14 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo, .LogoText {
+    .Logo, .LogoText, .Pocetna {
         height: 25px; /* Adjusted for tablets */
         width: auto;
     }
 }
 
 @media (min-width: 1024px) {
-    .Logo, .LogoText {
+    .Logo, .LogoText, .Pocetna {
         height: 30px; /* Adjusted for desktops */
         width: auto;
         top: 20px; /* Adjusted for desktops */
