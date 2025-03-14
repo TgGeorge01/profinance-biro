@@ -8,7 +8,7 @@ body {
 
 /*Header*/
 .Header {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 60px;
     background: #adadade0;
@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: left;
     padding-left: 10px;
-    fixed: top;
+
 }
 
 /* Navigation */
@@ -32,7 +32,7 @@ body {
     border: #ffffff;
     font: Roboto;
     font-size: 20px;
-    background: #adadade0;
+    background: #adadad00;
 }
 
 
