@@ -91,3 +91,14 @@ body {
         top: 20px; /* Adjusted for desktops */
     }
 }
+
+/* Styling for the main heading */
+h1 {
+    font-size: 80px; /* Increase the font size */
+    font-family: Roboto, sans-serif; /* Ensure consistent font */
+    color: #000000; /* Text color */
+    text-align: center; /* Center the text */
+    line-height: 1.2; /* Adjust line spacing */
+    margin: 0; /* Remove default margins */
+    padding: 20px 0; /* Add padding for spacing */
+}
