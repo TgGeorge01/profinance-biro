@@ -10,7 +10,7 @@ body {
 .Header {
     position: fixed;
     width: 100%;
-    height: 40px;
+    height: 25px;
     background: #adadade0;
     color: #ffffff;
     text-align: center;
@@ -71,7 +71,7 @@ body {
 .Logo, .LogoText {
     top: 5px;
     left: 10px;
-    height: 20px;
+    height: 15px;
     width: auto; /* Adjusted for mobile */
     
 }
@@ -94,7 +94,7 @@ body {
 
 /* Styling for the main heading */
 h1 {
-    font-size: 30px; /* Increase the font size */
+    font-size: 15px; /* Increase the font size */
     font-family: 'Times New Roman'; /* Ensure consistent font */
     color: #000000; /* Text color */
     text-align: left; /* Move the text to the left */
@@ -107,7 +107,7 @@ h1 {
 @media (min-width: 768px) {
     h1 {
         font-size: 50px; /* Increase the font size */
-        padding-left: 50px;
+        padding-left: 17px;
     }
 }
 @media (min-width: 1024px) {
@@ -117,12 +117,12 @@ h1 {
     }
 }
 @media (min-width: 1024px) {
-   .Header, .Pocetna, .O_nama {
+   .Header {
          height: 60px;
    }
 }
 @media (min-width: 768px) {
-    .Header, .Pocetna, .O_nama {
+    .Header{
         height: 50px;
     }
 }
