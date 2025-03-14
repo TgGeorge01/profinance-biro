@@ -24,8 +24,8 @@ body {
 }
 
 .pocetna_text{
+    font: Roboto;
     font-size: 200px;
-    font-family: Roboto;
     color: #000000;
     text-align: center;
     padding-top: 10px;
