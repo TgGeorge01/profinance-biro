@@ -26,11 +26,12 @@ body {
 /* Navigation */
 .Pocetna {
     top: 5px;
-    left: 10px;
+    left: 20px;
     height: 40px;
     width: auto; /* Adjusted for mobile */
-    
-    
+    border: #ffffff;
+    font: Roboto;
+    font-size: 20px;
 }
 
 
