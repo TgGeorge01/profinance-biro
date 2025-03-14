@@ -220,7 +220,8 @@ h1 {
     font-size: 20px;
     color: #000000;
     background: #adadadd0;
-    border: #000000;
-    border-radius: 6%;
+    border: #000000 2px solid;
+    border-radius: 15%;
     padding: 10px;
+    left: 50px;
    }
