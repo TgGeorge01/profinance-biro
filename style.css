@@ -99,6 +99,7 @@ body {
 h1 {
     font-size: 45px; /* Increase the font size */
     font-family: 'Sintony'; /* Ensure consistent font */
+    font-weight: 400; /* Adjust font weight */
     color: #000000; /* Text color */
     text-align: center; /* Move the text to the left */
     line-height: 1.2; /* Adjust line spacing */
@@ -156,6 +157,7 @@ h1 {
  .TextImageContainer h1{
     font-size: 45px;
     font-family: 'Sintony';
+    font-weight: 400; /* Adjust font weight */
     color: #000000;
     line-height: 1.2;
     margin: 0;
