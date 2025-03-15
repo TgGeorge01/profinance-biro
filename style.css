@@ -143,7 +143,7 @@ h1 {
     position: relative;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 70px;
  }
 
  .CalculatorImage{
@@ -181,7 +181,7 @@ h1 {
         justify-content: center;
         text-align: left;
         flex-direction: row-reverse;
-        margin-top: 165px;
+        margin-top: 130px;
  
     }
     .CalculatorImage {
