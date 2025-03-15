@@ -126,6 +126,7 @@ h1 {
     h1 {
         font-size: 70px; /* Increase the font size */
         padding-left: 35px;
+        text-align: center;
     }
 }
 @media (min-width: 1024px) {
