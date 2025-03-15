@@ -180,6 +180,7 @@ h1 {
         justify-content: center;
         text-align: left;
         flex-direction: row-reverse;
+        margin-top: 50px;
  
     }
     .CalculatorImage {
