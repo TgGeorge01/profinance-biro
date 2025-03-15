@@ -207,7 +207,7 @@ h1 {
 @media (min-width: 1024px) {
     .TextImageContainer h1 {
         font-size: 70px;
-        text-align: left;
+        text-align: center;
     }
     .CalculatorImage {
         width: 50%;
