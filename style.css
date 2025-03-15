@@ -108,11 +108,11 @@ h1 {
     font-family: 'Sintony'; /* Ensure consistent font */
     font-weight: 400; /* Adjust font weight */
     color: #000000; /* Text color */
-    text-align: left; /* Move the text to the left */
+    text-align: center; /* Move the text to the left */
     line-height: 1.2; /* Adjust line spacing */
     margin: 0; /* Remove default margins */
     padding: 17px 0; /* Add padding for spacing */
-    padding-left: 0px;
+    padding-left: 15px;
 }
 
 @media (min-width: 768px) {
