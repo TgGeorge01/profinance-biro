@@ -26,7 +26,7 @@ body {
     align-items: center;
     padding-left: 10px;
     z-index: 1000;
-    justify-content: space-between;
+    justify-content: left;
 
 }
 
@@ -43,6 +43,8 @@ body {
     margin: 0; /* Add spacing around the button */
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
+    display: right;
+    position: absolute;
 }
 
 .pocetna_text{
