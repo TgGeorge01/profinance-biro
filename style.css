@@ -60,6 +60,7 @@ body {
     font-size: 16px;
     background: #adadad00;
     padding-left: 5px;
+    cursor: pointer;
 }
 
 .O_nama {
@@ -71,6 +72,7 @@ body {
     font: Roboto;
     font-size: 16px;
     background: #adadad00;
+    cursor: pointer;
 }
 
 
