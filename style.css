@@ -43,8 +43,7 @@ body {
     margin: 0; /* Add spacing around the button */
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
-    display: right;
-    position: absolute;
+    right: 5px;
 }
 
 .pocetna_text{
@@ -118,6 +117,11 @@ body {
         top: 20px; /* Adjusted for desktops */
         padding-left: 5px;
         font-size: 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .Kontakt {
+        right: 15px;
     }
 }
 
