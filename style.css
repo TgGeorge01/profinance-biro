@@ -102,7 +102,7 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo, .LogoText, .Pocetna, .O_nama {
+    .Logo, .LogoText, .Pocetna, .O_nama, .Kontakt {
         height: 25px; /* Adjusted for tablets */
         width: auto;
         padding-left: 5px;
@@ -110,7 +110,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-    .Logo, .LogoText, .Pocetna, .O_nama {
+    .Logo, .LogoText, .Pocetna, .O_nama, .Kontakt {
         height: 30px; /* Adjusted for desktops */
         width: auto;
         top: 20px; /* Adjusted for desktops */
