@@ -24,26 +24,25 @@ body {
     line-height: 60px;
     display: flex;
     align-items: center;
-    justify-content: left;
     padding-left: 10px;
     z-index: 1000;
+    justify-content: space-between;
 
 }
 
-.Kontakt{
-    top: 5px;
-    left: 40px;
+.Kontakt{    
     height: 25px;
     width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     background: #efefefa1;
-    padding-left: 5px;
+    padding: 5px 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     border-radius: 15px; /* Rounded corners */
-    margin: 20px; /* Add spacing around the button */
-    margin-left: 15px;
+    margin: 0; /* Add spacing around the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .pocetna_text{
@@ -119,12 +118,7 @@ body {
         font-size: 20px;
     }
 }
-@media (min-width: 1024px) {
-    .Kontakt {
-        padding-left: 150px;
 
-    }
-}
 
 /* Styling for the main heading */
 h1 {
