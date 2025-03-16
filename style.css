@@ -82,7 +82,7 @@ body {
     top: 5px;
     left: 40px;
     height: 18px;
-    width: auto; /* Adjusted for mobile */
+    width: 30px; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
     font-size: 16px;
