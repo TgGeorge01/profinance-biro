@@ -111,7 +111,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-    .Logo, .LogoText, .Pocetna, .O_nama, .Kontakt {
+    .Logo, .LogoText, .Pocetna, .O_nama, {
         height: 30px; /* Adjusted for desktops */
         width: auto;
         top: 20px; /* Adjusted for desktops */
@@ -121,7 +121,7 @@ body {
 }
 @media (min-width: 1024px) {
     .Kontakt {
-        position: fixed;
+        padding-left: 150px;
 
     }
 }
