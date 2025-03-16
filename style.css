@@ -30,6 +30,19 @@ body {
 
 }
 
+.Kontakt{
+    top: 5px;
+    left: 40px;
+    height: 20px;
+    width: auto; /* Adjusted for mobile */
+    border: #ffffff;
+    font: Roboto;
+    font-size: 20px;
+    background: #efefef;
+    padding-left: 5px;
+    align-self: right;
+}
+
 .pocetna_text{
     font: Roboto;
     font-size: 200px;
