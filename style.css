@@ -40,10 +40,10 @@ body {
     font-size: 20px;
     background: #efefefa1;
     padding-left: 5px;
-    align-self: right;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     border-radius: 15px; /* Rounded corners */
     margin: 20px; /* Add spacing around the button */
+    padding-left: 15px;
 }
 
 .pocetna_text{
@@ -117,6 +117,12 @@ body {
         top: 20px; /* Adjusted for desktops */
         padding-left: 5px;
         font-size: 20px;
+    }
+}
+@media (min-width: 1024px) {
+    .Kontakt {
+        position: fixed;
+
     }
 }
 
