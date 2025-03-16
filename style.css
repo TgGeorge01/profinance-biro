@@ -66,7 +66,7 @@ body {
     top: 5px;
     left: 40px;
     height: 18px;
-    width: 30px; /* Adjusted for mobile */
+    width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
     font-size: 16px;
@@ -86,7 +86,7 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo, .LogoText, .Pocetna, .O_nama, .Kontakt {
+    .Logo, .LogoText, .Pocetna, .O_nama,  {
         height: 25px; /* Adjusted for tablets */
         width: auto;
         padding-left: 5px;
