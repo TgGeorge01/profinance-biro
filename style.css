@@ -43,7 +43,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     border-radius: 15px; /* Rounded corners */
     margin: 20px; /* Add spacing around the button */
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 .pocetna_text{
