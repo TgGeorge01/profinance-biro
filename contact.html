@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Finance</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - Pro Finance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="Header">
-        <img src="logo.png" alt="logo" class="Logo"> &nbsp; &nbsp;
-        <img src="logo text.png" alt="logo text" class="LogoText">
-        <button class="Pocetna" onclick="location.href='index.html'">Početna</button>
-        <button class="O_nama" onclick="location.href='dontact.html'">Kontaktirajte Nas</button>
+<body class="bg-white overflow-x-hidden scroll-smooth">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full h-[35px] bg-gray-300/90 text-white text-center text-[20px] leading-[60px] flex items-center px-2 z-[1000]">
+        <img src="logo.png" alt="Logo" class="h-[25px] w-auto mr-2">
+        <img src="logo text.png" alt="Logo Text" class="h-[25px] w-auto">
+        <div class="ml-auto flex space-x-4">
+            <a href="index.html" class="text-black font-roboto text-[16px] bg-transparent cursor-pointer">Početna</a>
+            <a href="about.html" class="text-black font-roboto text-[16px] bg-transparent cursor-pointer">O nama</a>
+            <a href="contact.html" class="text-black font-roboto text-[16px] bg-transparent cursor-pointer">Kontakt</a>
+        </div>
     </header>
 
+    <!-- Main Content -->
+    <main class="mt-[70px] p-5">
+        <h1 class="text-[45px] md:text-[50px] lg:text-[70px] font-sintony font-light text-black leading-[1.2] text-center">
+            Contact Us
+        </h1>
+        <p class="text-[18px] md:text-[20px] lg:text-[22px] font-roboto text-gray-700 text-center mt-5">
+            Have questions? Reach out to us via email or phone. We're here to help!
+        </p>
+        <div class="flex flex-col items-center mt-10 space-y-4">
+            <p class="text-[18px] font-roboto text-gray-700">📧 Email: contact@profinance.com</p>
+            <p class="text-[18px] font-roboto text-gray-700">📞 Phone: +123 456 7890</p>
+        </div>
+    </main>
 </body>
 </html>
