@@ -69,11 +69,11 @@ body {
 .Pocetna {
     top: 5px;
     left: 40px;
-    height: 20px;
+    height: 18px;
     width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     background: #adadad00;
     padding-left: 5px;
 }
@@ -81,11 +81,11 @@ body {
 .O_nama {
     top: 5px;
     left: 40px;
-    height: 20px;
+    height: 18px;
     width: auto; /* Adjusted for mobile */
     border: #ffffff;
     font: Roboto;
-    font-size: 19px;
+    font-size: 16px;
     background: #adadad00;
 }
 
@@ -106,6 +106,7 @@ body {
         height: 25px; /* Adjusted for tablets */
         width: auto;
         padding-left: 5px;
+        font-size: 20px;
     }
 }
 
@@ -115,6 +116,7 @@ body {
         width: auto;
         top: 20px; /* Adjusted for desktops */
         padding-left: 5px;
+        font-size: 20px;
     }
 }
 
