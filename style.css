@@ -24,26 +24,11 @@ body {
     line-height: 60px;
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding:0 10px;
     z-index: 1000;
-    justify-content: left;
-
 }
 
-.Kontakt{    
-    height: 25px;
-    width: auto; /* Adjusted for mobile */
-    border: #ffffff;
-    font: Roboto;
-    font-size: 16px;
-    background: #efefefa1;
-    padding: 5px 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-    border-radius: 15px; /* Rounded corners */
-    margin: 0; /* Add spacing around the button */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-}
+
 
 .pocetna_text{
     font: Roboto;
