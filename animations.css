@@ -1,0 +1,4 @@
+.index.html{
+    transform: ease-in-out;
+    transition: transform 0.5s;
+}
