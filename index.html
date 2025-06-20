@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pro Finance</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="animations" href="animations.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-white overflow-x-hidden scroll-smooth">
-    <!-- Header -->
-    <header class="fixed top-0 left-0 w-full h-[35px] bg-gray-500/90 text-white text-center text-[20px] leading-[60px] flex items-center px-2 z-[1000]">
-        <img src="logo.png" alt="Logo" class="h-[25px] w-auto mr-2">
-        <img src="logo text.png" alt="Logo Text" class="h-[25px] w-auto">
-        <div class="ml-auto flex space-x-4">
-            <a href="index.html" class="text-black font-roboto text-[16px] bg-transparent cursor-pointer">Početna</a>
-            <a href="about.html" class="text-black font-roboto text-[16px] bg-transparent cursor-pointer">O nama</a>
-            <a href="contact.html" class="text-black font-roboto text-[16px] bg-transparent cursor-pointer">Kontakt</a>
-        </div>
+<body>
+    <header class="Header">
+        <img src="logo.png" alt="logo" class="Logo"> &nbsp; &nbsp;
+        <img src="logo text.png" alt="logo text" class="LogoText">
+        <button class="Pocetna" onclick="location.href='index.html'">Početna</button>
+        <button class="O_nama" onclick="location.href='contact.html'">Kontaktirajte Nas</button>
     </header>
 
-    <!-- Main Content -->
-    <main class="mt-[70px]">
-        <div class="relative text-center p-5">
-            <img src="Calculator.jpg" alt="Calculator" class="absolute top-0 left-1/2 transform -translate-x-1/2 max-w-full h-auto z-[-1] opacity-60 rounded-[6%] shadow-xl">
-            <h1 class="text-[45px] md:text-[50px] lg:text-[70px] font-sintony font-light text-black leading-[1.2] m-0 p-5">
-                Vaš pouzdan<br>partner za<br>finansijski uspjeh!
-            </h1>
-        </div>
+    <div class="TextImageContainer">
+        <img src="image (70).jpg" alt="background" class="CalculatorImage">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <class="pocetna_text">
+        <h1>
+            VAŠ POUZDAN<br>
+            PARTNER ZA<br>
+            FINANSIJSKI USPJEH.
+        </h1>
+        </class>
 
-        <!-- Centered Button -->
-        <div class="flex items-center justify-center h-screen mt-[-100px]">
-            <a href="about.html" class="font-roboto text-[18px] text-white bg-gray-500 border-none rounded-[25px] px-5 py-2 cursor-pointer shadow-md transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:scale-105 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-2">
-                Saznaj više
-            </a>
-        </div>
-    </main>
+
+    </div>
+
+    &nbsp; &nbsp;&nbsp; &nbsp;
+    <button class="SaznajViseButton" onclick="location.href='about.html'">Saznaj vise</button>
+
 </body>
 </html>
