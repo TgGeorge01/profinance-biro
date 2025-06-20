@@ -2,6 +2,16 @@ html{
     scroll-behavior: smooth;
 }
 
+.about_text, {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for consistency */
+    font-weight: 400; /* Normal font weight */
+    color: #000000; /* Black text color */
+    text-align: center; /* Center the text */
+    line-height: 1.5; /* Adjust line height for readability */
+    margin: 0; /* Remove default margins */
+    padding: 20px; /* Add padding for spacing */
+}
+
 /* Reseting main margins */
 body {
     margin: 0;
