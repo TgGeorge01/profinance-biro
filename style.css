@@ -156,78 +156,67 @@ h1 {
         height: 50px;
     }
 }
- .TextImageContainer{
-
+ .TextImageContainer {
+    position: relative;
+    width: 100%;
+    min-height: 300px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
     margin-top: 70px;
- }
+}
 
- .CalculatorImage{
-    margin-left: 75px;
-    width: 85%;
+.CalculatorImage {
+    position: absolute;
     top: 0;
-    left: 15%;
-    right: auto;
+    left: 50%;
     transform: translateX(-50%);
-    max-width: 100%;
+    width: 300px;
     height: auto;
-    z-index: -1;
-    opacity: 0.6;
-    will-change: transform, opacity;
+    object-fit: cover;
+    opacity: 0.75; /* Adjust for desired transparency */
+    z-index: 1;
+    pointer-events: none;
+}
 
-    border: none;
-
-    border-radius: 6%;
-
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.466);
- }
-
- .TextImageContainer h1{
-    font-size: 45px;
-    font-family: 'Sintony';
-    font-weight: 400; /* Adjust font weight */
-    color: #000000;
-    line-height: 1.2;
-    margin: 0;
-    padding: 20px ;
-
- }
+.TextOverlay {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+ 
  /* Media query for tablets and larger screens */
  @media (min-width: 768px) {
-    .TextImageContainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
-        flex-direction: row-reverse;
-        margin-top: 130px;
- 
-    }
-    .CalculatorImage {
+   .TextImageContainer {
+    position: relative;
+    width: 100%;
+    min-height: 300px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
 
-        width: 83%;
-        height: auto;
+.CalculatorImage {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.75; /* Adjust for desired transparency */
+    z-index: 1;
+    pointer-events: none;
+}
 
-        margin-right: 0;
-        margin-top: 150px;
-        opacity: 1;
-        z-index: 2;
-        transform: none;
-        align-self: center;
-
-        border: none;
-
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-        border-radius: 6%;
-    }
-    .TextImageContainer h1 {
-        font-size: 40px;
-        margin-top: 115px;
-        padding: 0;
-        z-index: 3;
-    }
+.TextOverlay {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
  }
 /*Media query for desktops */
 @media (min-width: 1024px) {
@@ -263,6 +252,9 @@ h1 {
     cursor: pointer; /* Change cursor to pointer on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
+    left: 44%; /* Position the button */
+    top: 150px;
+    position: relative; /* Relative positioning for the button */
 }
 
 /* Hover effect for the button */
