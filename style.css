@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.about_text, {
+.about_text {
     font-family: 'Roboto', sans-serif; /* Use Roboto font for consistency */
     font-weight: 400; /* Normal font weight */
     color: #000000; /* Black text color */
@@ -99,7 +99,7 @@ body {
 
 /* Media query for tablets and larger screens */
 @media (min-width: 768px) {
-    .Logo, .LogoText, .Pocetna, .O_nama,  {
+    .Logo, .LogoText, .Pocetna, .O_nama {
         height: 25px; /* Adjusted for tablets */
         width: auto;
         padding-left: 5px;
@@ -108,7 +108,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-    .Logo, .LogoText, .Pocetna, .O_nama, {
+    .Logo, .LogoText, .Pocetna, .O_nama {
         height: 30px; /* Adjusted for desktops */
         width: auto;
         top: 20px; /* Adjusted for desktops */
@@ -121,7 +121,7 @@ body {
 
 /* Styling for the main heading */
 h1 {
-    font-size: 5px; /* Increase the font size */
+    font-size: 30px; /* Increase the font size */
     font-family: 'Sintony'; /* Ensure consistent font */
     font-weight: 400; /* Adjust font weight */
     color: #000000; /* Text color */
