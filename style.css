@@ -172,7 +172,7 @@ h1 {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 300px;
+    width: 350px;
     height: auto;
     object-fit: cover;
     opacity: 0.75; /* Adjust for desired transparency */
